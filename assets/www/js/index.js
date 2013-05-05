@@ -59,7 +59,7 @@ function setupApp() {
 			console.log("Error " + err);
 		}
 	});
-	$("#sign_in_button").click(function(e) {
-		authClient.login("facebook");
+	$("#sign_in_button").click(function(e) {	
+		var loginVal=authClient.login("facebook");
 	});
 }

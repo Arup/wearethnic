@@ -1,0 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100italic,100,300italic,700,900);
+html {
+	font-family: Roboto, sans-serif;
+	font-size:14px;
+	font-weight:400;
+	width:100%;
+}
+.header{
+	height:45px;
+	width:100%;
+	background-color: #b59c54;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 0.08em;
+	line-height: 2;
+}
+.fb-login{
+	margin: 40px auto 0;
+	max-width: 300px;
+	text-align: center;
+}
